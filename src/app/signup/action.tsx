@@ -30,7 +30,7 @@ export const signUp = async (data: ISchema | FormData) => {
     email,
     password,
     options: {
-      emailRedirectTo: `${origin}/auth/callback`,
+      emailRedirectTo: `${origin}/auth/confirm`,
     },
   })
 

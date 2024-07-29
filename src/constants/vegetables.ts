@@ -42,7 +42,6 @@ export const vegetables: string[] = [
   'Squash',
 
   // Tubers and Bulbs
-  'Sweet Potato',
   'Yams',
   'Ginger',
   'Turmeric',
@@ -58,43 +57,5 @@ export const vegetables: string[] = [
   'Romanesco',
   'Fennel',
   'Chayote',
-  'Daikon Radish',
-  'Watercress',
-
-  // Specialty Vegetables
-  'Napa Cabbage',
-  'Chinese Broccoli',
-  'Salsify',
-  'Celeriac',
-
-  // Additional Vegetables
-  'Celeriac',
-  'Cardoon',
-  'Chervil',
-  'Dandelion Greens',
-  'Endive',
-  'Mizuna',
-  'Jerusalem Artichoke',
-  'Oca',
-  'Purslane',
-  'Sorrel',
-  'Taro',
-  'Yuca',
-  'Sea Beans',
-
-  // Additional Leafy Greens
-  'Red Leaf Lettuce',
-  'Butterhead Lettuce',
-  'Romaine Lettuce',
-
-  // Additional Cruciferous Vegetables
-  'Mizuna',
-  'Tat Soi',
-  'Rutabaga',
-  'Wasabi',
-
-  // Additional Fruiting Vegetables
-  'Okra',
-  'Tomatillo',
-  'Chayote',
+  'Daikon',
 ]

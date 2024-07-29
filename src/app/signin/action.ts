@@ -33,5 +33,5 @@ export const signIn = async (data: ISchema | FormData) => {
     return redirect('/signin?message=Could not authenticate user')
   }
 
-  return redirect('/protected')
+  return redirect('/dietary-restrictions')
 }

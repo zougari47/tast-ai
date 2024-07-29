@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
+import { DietaryRestrictionsForm } from './form'
 
 export default async function DietaryRestrictionsPage() {
   const supabase = createClient()
@@ -12,5 +13,9 @@ export default async function DietaryRestrictionsPage() {
     return redirect('/signin')
   }
 
-  return <div>Hello america</div>
+  return (
+    <div>
+      <DietaryRestrictionsForm />
+    </div>
+  )
 }

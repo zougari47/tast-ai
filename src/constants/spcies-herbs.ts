@@ -26,7 +26,6 @@ export const spicesAndHerbs: string[] = [
   'Star Anise',
   'Tamarind',
   'Wasabi',
-  'Paprika',
   'Caraway Seed',
   'Szechuan Peppercorn',
   'Pink Peppercorn',
